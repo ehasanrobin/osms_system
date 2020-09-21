@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.btn,
+.btn:focus
+button
+{
+outline: transparent;
+box-shadow: transparent;
+outline: none;
+}
+input:focus{
+    box-shadow: transparent;
+    
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+
+}
+img{
+    width: 100%;
+}
+/* ============= */
+/* navbar section  */
+/* =================== */
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+ .navbar .custom-nav .nav-item a {
+    color: #fff;
+}
+.jumbo-img{
+    background-image: url(../images/Banner1.jpeg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.font-italic{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.609);
+}
+
+.main-heading{
+margin-top: 50px;
+}
+@media only screen and (max-width:768px){
+    .main-heading{
+        margin-top: 350px;
+        text-align: center;
+    }
+
+
+}
+.active {
+    background: #dc3545!important;
+}
